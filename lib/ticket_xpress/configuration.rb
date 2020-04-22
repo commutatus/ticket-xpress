@@ -1,11 +1,11 @@
 module TicketXpress
   class Configuration
-    attr_accessor :client_code, :store_id, :api_key
+    attr_accessor :client_id, :client_secret, :base_url
 
     def initialize
-      @client_code = nil
-      @store_id = nil
-      @api_key = nil
+      @base_url = nil
+      @client_id = nil
+      @client_secret = nil
     end
   end
 end

@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'anbu@commutatus.com'
   s.files       = ["lib/ticket_xpress.rb", "lib/ticket_xpress/configuration.rb"]
   s.homepage    =
-    'https://github.com/commutatus/tagalys'
+    'https://github.com/commutatus/ticket-xpress'
   s.license       = 'MIT'
 end
